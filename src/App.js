@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 export default function App() {
   return (
-    <div className="">
+    <div className="bg-dark text-light">
       {/* Navbar */}
       <nav className="">
         <div className="">
@@ -66,7 +66,7 @@ export default function App() {
       <hr className="text-light" />
       <footer className="">
         This is an example React app made using Bootstrap by 
-        <p className="">Imie i nazwisko ucznia</p>
+        <p className="">Nicola Kaleta</p>
       </footer>
     </div>
   );
