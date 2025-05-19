@@ -3,14 +3,14 @@ export default function App() {
   return (
     <div className="bg-dark text-light">
       {/* Navbar */}
-      <nav className="">
-        <div className="">
-          <a className="" href="#">
-            <img src="https://placehold.co/30x30/purple/white?text=B" alt="Logo" className="" />
-            <span className="">React + Bootstrap</span>
+      <nav className="nav justify-content-center">
+        <div className="d-flex align-items-center gap-5">
+          <a className="d-flex align-items-center text-light text-decoration-none me-4" href="#">
+            <img src="https://placehold.co/30x30/purple/white?text=B" alt="Logo" className="me-2" />
+            <span className="fw-bold">React + Bootstrap</span>
           </a>
-          <a href="#" className="">Shop</a>
-          <a href="#" className="">Contact</a>
+           <a href="#" className="text-light text-decoration-none">Shop</a>
+          <a href="#" className="text-light text-decoration-none">Contact</a>
         </div>
       </nav>
       <hr className="text-light" />
